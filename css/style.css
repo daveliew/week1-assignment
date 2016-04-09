@@ -44,11 +44,18 @@
 }
 
 /* Blog.html styles start here */
+
+/*main*/
+.main {
+  float: left;
+  width: 70%;
+}
+
 .container {
   font-family: sans-serif;
 }
 
-.container h1 {
+.container .main .blog-header {
   color: orange;
 }
 
@@ -56,4 +63,34 @@
   font-family: serif;
   color: grey;
   font-style: italic;
+}
+
+.container img {
+  max-width: 100%;
+}
+
+.container a{
+  text-decoration: none;
+  color: orange;
+}
+
+
+/* Sidebar */
+.sidebar {
+  float: right;
+  width: 30%;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.sidebar h3 {
+  font-size: 14px;
+}
+
+.sidebar ul{
+  padding: 0;
+}
+
+.sidebar ul li{
+  list-style-type: none;
 }
